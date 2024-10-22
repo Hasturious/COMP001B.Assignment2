@@ -30,7 +30,11 @@ h3 {
 }
 
 p {
-
+display: inline;
+text-align: justify;
+padding: auto;
+margin: auto;
+width: 50px;
 }
 
 .album-art {
