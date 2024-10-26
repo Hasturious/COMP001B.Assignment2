@@ -37,7 +37,8 @@ p {
 }
 
 .album-art {
-
+	border: 5px solid red;
+	padding: 15px;
 }
 
 .clear {
@@ -45,7 +46,9 @@ p {
 }
 
 .image-electronics, .image-stage-effects {
-	
+	border: 5px double red;
+	padding: 15px;
+	width: 200px;
 }
 
 .record-label {
@@ -54,7 +57,13 @@ p {
 }
 
 .track-list {
-	
+	vertical-align: top;
+	padding: 40px;
+	display: inline-block;
+	width: 60%;
+	padding-left: 300px;
+	margin-top: -250px;
+	list-style: square;
 }
 
 #about-photo {
@@ -66,7 +75,7 @@ p {
 }
 
 #copyright {
-
+	color: red;
 }
 
 #section-about, #section-discography, #section-equipment {
@@ -83,3 +92,5 @@ p {
 	margin: 15px;
 	width: 1340px;
 }
+
+/*If the Notable Songs element had a specific tag/class/ID I could actually do this but Ive been at this too long to find another solution*/
